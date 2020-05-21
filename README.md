@@ -1,4 +1,4 @@
-# “伦敦全球美食”可视化网页
+# “伦敦全球美食”网页交互地图
 此项目沿用[伦敦美食多元性分析](https://github.com/yunjinghu226/LondonFoodervisty)中的餐厅数据，制作了展示各类餐厅分布和各区餐厅种类结构的网页交互地图
 
 ![网页截图](https://github.com/yunjinghu226/LondonGlobalCuisine/blob/master/webpage_screenshot.png "网页截图")
