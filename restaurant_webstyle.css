@@ -1,0 +1,164 @@
+<style>
+body { margin:0; padding:0; overflow: hidden}
+
+#map { position:absolute; top:0; left:0; width:100%; height:100%; }
+
+#legend {
+opacity: 1;
+position: absolute;
+z-index: 1;
+bottom: 30px;
+left: 10px;
+width: 130px;
+font-family: Helvetica, 'Open Sans', sans-serif;
+}
+
+#legend a {
+font-size: 13px;
+font-weight: bold;
+display: block;
+height: 3vw
+margin: 0;
+padding: 3px;
+text-decoration: none;
+border-left: 10px solid #fff;
+text-align: left;
+background-color: #fff;
+
+}
+
+#legend a:hover {
+background-color: #f8f8f8;
+}
+
+#legend a.active {
+background-color: #fff;
+border-left: 10px solid #595959;
+}
+
+#legend a.active:hover {
+background: #f8f8f8;
+}
+
+.info {
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  font-size: 12px;
+  color:#404040;
+  top:0;
+  right:0;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  margin: none;
+}
+
+.info .stat {
+  height: 45%;
+  top:0;
+  display: block;
+  position: relative;
+}
+
+.info .cate {
+  height: 10%;
+  top: 45%;
+  display: block;
+}
+
+.info .br_info {
+  height: 45%;
+  top: 55%;
+  display: block;
+}
+
+.openbtn {
+  position: fixed;
+  width: 15px;
+  /* border-radius: 3px; */
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+.sidepanel {
+  position: fixed;
+  right: 0;
+  width:297px;
+  border-left: 3px solid;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: none;
+  padding: none;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: #818181;
+}
+
+.sidepanel a {
+  text-decoration: none;
+}
+
+.sidepanel a:hover {
+  color: #000
+}
+
+.content {
+  display: block;
+  padding: 8px 8px 8px 12px;
+}
+
+.stat #statbutton {
+  background-color: #A186B8;
+  height:inherit;
+  top:inherit;
+}
+
+.stat #statPanel {
+  top:inherit;
+  height:inherit;
+  bottom:inherit;
+  border-color: #A186B8;
+}
+
+.cate #catebutton {
+  background-color: #FFBE57;
+  height:inherit;
+  top:inherit;
+}
+
+.cate #catePanel {
+  top:inherit;
+  height:inherit;
+  bottom:inherit;
+  border-color: #FFBE57;
+}
+
+.br_info #brbutton {
+  background-color: #438F5E;
+  height:inherit;
+  top:inherit;
+}
+
+.br_info #brPanel {
+  top:inherit;
+  height:inherit;
+  bottom:inherit;
+  border-color: #438F5E;
+}
+
+.barchart {
+  width:100%;
+  display: block;
+}
+
+</style>
